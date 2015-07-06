@@ -1,0 +1,21 @@
+MGBs, Tanks, and Batmobiles
+
+Excerpt from: "In the Beginning was the Command Line" by Neal Stephenson
+
+Around the time that Jobs, Wozniak, Gates, and Allen were dreaming up these unlikely schemes, I was a teenager living in Ames, Iowa. One of my friends' dads had an old MGB sports car rusting away in his garage. Sometimes he would actually manage to get it running and then he would take us for a spin around the block, with a memorable look of wild youthful exhiliration on his face; to his worried passengers, he was a madman, stalling and backfiring around Ames, Iowa and eating the dust of rusty Gremlins and Pintos, but in his own mind he was Dustin Hoffman tooling across the Bay Bridge with the wind in his hair.
+
+In retrospect, this was telling me two things about people's relationship to technology. One was that romance and image go a long way towards shaping their opinions. If you doubt it (and if you have a lot of spare time on your hands) just ask anyone who owns a Macintosh and who, on those grounds, imagines him- or herself to be a member of an oppressed minority group.
+
+The other, somewhat subtler point, was that interface is very important. Sure, the MGB was a lousy car in almost every way that counted: balky, unreliable, underpowered. But it was fun to drive. It was responsive. Every pebble on the road was felt in the bones, every nuance in the pavement transmitted instantly to the driver's hands. He could listen to the engine and tell what was wrong with it. The steering responded immediately to commands from his hands. To us passengers it was a pointless exercise in going nowhere--about as interesting as peering over someone's shoulder while he punches numbers into a spreadsheet. But to the driver it was an experience. For a short time he was extending his body and his senses into a larger realm, and doing things that he couldn't do unassisted.
+
+The analogy between cars and operating systems is not half bad, and so let me run with it for a moment, as a way of giving an executive summary of our situation today.
+
+Imagine a crossroads where four competing auto dealerships are situated. One of them (Microsoft) is much, much bigger than the others. It started out years ago selling three-speed bicycles (MS-DOS); these were not perfect, but they worked, and when they broke you could easily fix them.
+
+There was a competing bicycle dealership next door (Apple) that one day began selling motorized vehicles--expensive but attractively styled cars with their innards hermetically sealed, so that how they worked was something of a mystery.
+
+The big dealership responded by rushing a moped upgrade kit (the original Windows) onto the market. This was a Rube Goldberg contraption that, when bolted onto a three-speed bicycle, enabled it to keep up, just barely, with Apple-cars. The users had to wear goggles and were always picking bugs out of their teeth while Apple owners sped along in hermetically sealed comfort, sneering out the windows. But the Micro-mopeds were cheap, and easy to fix compared with the Apple-cars, and their market share waxed.
+
+Eventually the big dealership came out with a full-fledged car: a colossal station wagon (Windows 95). It had all the aesthetic appeal of a Soviet worker housing block, it leaked oil and blew gaskets, and it was an enormous success. A little later, they also came out with a hulking off-road vehicle intended for industrial users (Windows NT) which was no more beautiful than the station wagon, and only a little more reliable.
+
+Since then there has been a lot of noise and shouting, but little has changed. The smaller dealership continues to sell sleek Euro-styled sedans and to spend a lot of money on advertising campaigns. They have had GOING OUT OF BUSINESS! signs taped up in their windows for so long that they have gotten all yellow and curly. The big one keeps making bigger and bigger station wagons and ORVs....

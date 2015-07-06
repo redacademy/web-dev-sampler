@@ -1,0 +1,423 @@
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+ * { margin: 0; padding: 0; }
+ *:focus { outline: none; }
+ html { overflow-y: scroll; font: 62.5% sans-serif; -webkit-text-size-adjust: none; }
+ body { background: white; }
+
+ .screen-reader { position: absolute; left: -9999px; top: -9999px; }
+ .clear { clear: both; }
+ .group:before, .group:after { content: ""; display: table; }
+ .group:after { clear: both; }
+ .group { zoom: 1; } // For IE 6/7 (trigger hasLayout)
+
+ table { border-collapse: separate; border-spacing: 0; }
+ caption, th, td { font-weight: normal;	text-align: left; }
+ fieldset, img { border: 0; }
+ a img { border: 0; }
+ strong, b, strong *, b * { font-style: normal; font-weight: 500 !important; }
+ em , i, em *, i * { font-style: italic; }
+ blockquote, q { quotes: "" ""; }
+ blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+
+ /* Border-Box http:/paulirish.com/2012/box-sizing-border-box-ftw/ */
+ * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+ }
+
+/* Prevent scroll on narrow devices */
+html,
+body {
+  overflow-x: hidden;
+}
+
+img {
+   border-radius: 0;
+}
+
+/*
+ * Typography
+ *
+ * Set typographic styles for the site.
+ */
+
+html {
+   font-family: "Roboto", Helvetica, Arial, sans-serif;
+   font-size: 16px;
+   font-weight: 100;
+}
+
+@media (min-width: 38em) {
+   html {
+      font-size: 20px;
+   }
+}
+
+body,
+button,
+input,
+select,
+textarea {
+   color: #636363;
+   line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: "Roboto", Helvetica, Arial, sans-serif;
+   font-weight: 700;
+   color: #313131;
+}
+
+h2, h3 {
+   margin: 2rem 0 1.5rem;
+}
+
+ol, ul {
+   margin-left: 1em;
+}
+
+strong {
+   color: inherit;
+}
+
+a {
+   color: #ed4343;
+}
+
+/*
+ * Homepage
+ *
+ * Styles for the landing page.
+ */
+
+.container {
+   max-width: 28rem;
+}
+
+@media (min-width: 38em) {
+   .container {
+      max-width: 32rem;
+   }
+}
+@media (min-width: 56em) {
+   .container {
+      max-width: 38rem;
+   }
+}
+
+.masthead {
+   margin-bottom: 0;
+}
+
+.masthead .logo {
+   margin: 0 auto 1em;
+   max-width: 50%;
+}
+
+.masthead h1 {
+   text-align: center;
+   margin: 0 auto;
+   width: 300px;
+   height: 154px;
+   background: url('../img/summer-sampler-banner.png') no-repeat;
+   background-size: 300px 154px;
+   text-indent: 100%;
+   white-space: nowrap;
+   overflow: hidden;
+}
+
+@media (min-width: 38em) {
+   .masthead .logo {
+      max-width: 40%;
+   }
+
+   .masthead h1 {
+      width: 400px;
+      height: 207px;
+      background-size: 400px 207px;
+   }
+}
+
+@media (min-width: 56em) {
+   .masthead .logo {
+      max-width: 33%;
+   }
+
+   .masthead h1 {
+      width: 459px;
+      height: 237px;
+      background-size: 459px 237px;
+   }
+}
+
+.course-list {
+   list-style: none;
+   margin-left: 0;
+   margin-bottom: 2em;
+}
+
+.course-list li {
+   position: relative;
+   width: 100%;
+   height: 200px;
+   margin-bottom: 2em;
+   -webkit-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.5);
+      -moz-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.5);
+           box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.5);
+}
+
+.course-list span {
+   position: absolute;
+   left: 15px;
+   bottom: 10px;
+}
+
+.course-list a {
+   color: #fff;
+   font-size: 1.75em;
+   font-weight: 700;
+   line-height: 1.25;
+   text-shadow: 1px 1px 4px rgba(0, 0, 0, .9);
+}
+
+.course-list a:hover,
+.course-list a:active,
+.course-list a:focus {
+   color: #fffcab;
+   text-decoration: none;
+}
+
+.html-css-class {
+   background: url('../img/html-css-bkgd.jpg') no-repeat;
+   background-size: 720px 200px;
+}
+
+.responsive-class {
+   background: url('../img/responsive-bkgd.jpg') no-repeat;
+   background-size: 720px 200px;
+}
+
+.jquery-class {
+   background: url('../img/jquery-bkgd.jpg') no-repeat;
+   background-size: 720px 200px;
+}
+
+.web-dev-intro-class {
+   background: url('../img/web-dev-intro-bkgd.jpg') no-repeat;
+   background-size: 720px 200px;
+}
+
+footer {
+   text-align: center;
+}
+
+.copyright {
+   font-weight: 700;
+}
+
+/*
+ * Slideshows
+ *
+ * Styles for remark.js slideshows.
+ */
+
+.remark-slide .remark-slide-content:not(.inverse) {
+   background: #fff url("../img/red-logo.svg") no-repeat left 20px bottom 18px;
+   background-size: 180px 30px;
+}
+
+.remark-slide .inverse {
+   background: #272822;
+   color: #777872;
+   text-shadow: 0 0 20px #333;
+}
+
+.remark-slide .inverse h1,
+.remark-slide .inverse h2 {
+   color: #f3f3f3;
+   line-height: 1.15em;
+}
+
+.remark-slide .inverse .title-logo {
+   display: block;
+   width: 360px;
+   position: absolute;
+   bottom: 5%;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.remark-slide-content {
+   font-size: 26px;
+}
+
+.remark-slide-content h1, .remark-slide-content h2, .remark-slide-content h3, .remark-slide-content h4, .remark-slide-content h5, .remark-slide-content h6 {
+   font-family: "Roboto", Helvetica, Arial, sans-serif;
+   margin-bottom: .5em;
+}
+
+.remark-slide-content h1 {
+   font-size: 2.4em;
+   font-weight: 700;
+}
+
+.remark-slide-content h2 {
+   font-size: 1.8em;
+   font-weight: 700;
+   color: #ed4343;
+}
+
+.remark-slide-content h3 {
+   font-size: 1.5em;
+   font-weight: 700;
+}
+
+.remark-slide-content h4 {
+   font-size: 1.2em;
+   font-weight: 100;
+   color: #ed4343;
+}
+
+.remark-slide-content h5 {
+   font-size: 1em;
+   font-weight: 100;
+}
+
+.remark-slide-content h6 {
+   font-size: .9em;
+   font-weight: 100;
+}
+
+.remark-slide-content ol, .remark-slide-content ul {
+   margin-left: 1em;
+}
+
+.remark-slide-content p, .remark-slide-content li {
+   margin-bottom: 1em;
+}
+
+.remark-slide-content blockquote {
+   font-size: 1.2em;
+   color: #ed4343;
+   font-weight: 400;
+   text-align: center;
+   border-left: 0;
+   padding: 0;
+}
+
+.remark-slide-content .footnote {
+   position: absolute;
+   bottom: 3em;
+   font-size: 80%;
+}
+
+.remark-slide-content .footnote.right {
+   right: 104px;
+}
+
+.remark-slide-content pre {
+   padding: 0;
+}
+
+.remark-slide-content img {
+   border-radius: 0;
+}
+
+/* Remark Helper Classes */
+
+.remark-slide-content .red {
+   color: #ed4343;
+}
+
+.remark-slide-content .white, .remark-slide-content .white a {
+   color: #fff;
+}
+
+.remark-slide-content .large {
+   font-size: 2em;
+}
+
+.remark-slide-content .border {
+   border: 1px solid #e6e6e6;
+}
+
+.remark-slide-content .inline-images,
+.remark-slide-content .inline-images-border {
+   text-align: center;
+}
+
+.remark-slide-content .inline-images img,
+.remark-slide-content .inline-images-border img {
+   display: inline-block;
+   margin: 0 1em 1em;
+}
+
+.remark-slide-content .inline-images img:first-child,
+.remark-slide-content .inline-images-border img:first-child {
+   margin-left: 0;
+}
+
+.remark-slide-content .inline-images img:last-child,
+.remark-slide-content .inline-images-border img:last-child {
+   margin-right: 0;
+}
+
+.remark-slide-content .inline-images-border img {
+   border: 1px solid #e6e6e6;
+}
+
+.remark-slide-content .pull-left {
+   float: left;
+   width: 47%;
+}
+
+.remark-slide-content .pull-right {
+   float: right;
+   width: 47%;
+}
+
+.remark-slide-content .pull-right ~ p {
+   clear: both;
+}
+
+/* Two-Column Layout */
+
+.remark-slide-content .left-column {
+   color: #777;
+   width: 30%;
+   height: 92%;
+   float: left;
+}
+
+.remark-slide-content .right-column {
+   width: 65%;
+   float: right;
+   padding-top: 1em;
+}
+
+/* Code Blocks */
+
+.remark-code,
+.remark-inline-code {
+   font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+.remark-code {
+   font-size: 16px;
+}
+
+.remark-code-line-highlighted {
+   background-color: #373832;
+}
+
+/* Embeds */
+
+.twitter-tweet {
+   margin: 10px auto !important;
+}
