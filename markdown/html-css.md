@@ -440,7 +440,7 @@ And if a page is in a sub-folder:
 
 # Exercise 2
 
-**[Download this text file](../resources/sample-text.txt)** and paste its content into your `index.html` file inside your code editor.
+**[Download this text file](/resources/sample-text.txt)** and paste its content into your `index.html` file inside your code editor.
 
 Let's mark this content up with **paragraph tags** and a **heading tag** for the title.
 
