@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="640px" height="417.289px" viewBox="0 0 640 417.289" enable-background="new 0 0 640 417.289" xml:space="preserve">
+<circle opacity="0.4" fill="#ED4343" cx="443.506" cy="182.335" r="178.034"/>
+<circle opacity="0.5" fill="#4678E8" cx="197.573" cy="182.335" r="178.033"/>
+<rect x="47.338" y="134.114" fill="none" width="203.55" height="108.123"/>
+<text transform="matrix(1 0 0 1 53.8691 178.7437)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Roboto-Bold'" font-size="59.5056">FRONT</tspan><tspan x="38.164" y="59.505" fill="#FFFFFF" font-family="'Roboto-Bold'" font-size="59.5056">END</tspan></text>
+<rect x="387.918" y="132.82" fill="none" width="203.549" height="110.713"/>
+<text transform="matrix(1 0 0 1 412.332 177.4497)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Roboto-Bold'" font-size="59.5056">BACK</tspan><tspan x="20.281" y="59.505" fill="#FFFFFF" font-family="'Roboto-Bold'" font-size="59.5056">END</tspan></text>
+<g>
+	<g>
+		<line fill="none" stroke="#464646" stroke-width="3" stroke-miterlimit="10" x1="319.5" y1="368.592" x2="319.5" y2="239.592"/>
+		<g>
+			<polygon fill="#464646" points="330.794,247.877 319.685,243.157 308.575,247.877 319.685,221.542 			"/>
+		</g>
+	</g>
+</g>
+<rect x="193.838" y="383.146" fill="none" width="259.08" height="30.102"/>
+<text transform="matrix(1 0 0 1 217.498 410.8477)" fill="#464646" font-family="'Roboto-Bold'" font-size="36.9345">FULL STACK</text>
+</svg>
