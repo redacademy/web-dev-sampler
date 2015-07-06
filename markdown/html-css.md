@@ -6,7 +6,7 @@ class: center, middle, inverse
 
 # Dive Into HTML & CSS
 
-.title-logo[![Red logo](/img/red-logo-white.svg)]
+.title-logo[![Red logo](img/red-logo-white.svg)]
 
 ---
 layout: false
@@ -44,7 +44,7 @@ template: inverse
 ---
 class: center, middle
 
-![HTTP request diagram](/img/slide-assets/http-request-diagram.svg)
+![HTTP request diagram](img/slide-assets/http-request-diagram.svg)
 
 ---
 template: inverse
@@ -72,14 +72,14 @@ Hypertext also relates to **hyperlinks**, which also applies to media and non‐
 class: center, middle
 
 .inline-images[
-   ![Traditional documents](/img/slide-assets/html-traditional-doc.svg)
+   ![Traditional documents](img/slide-assets/html-traditional-doc.svg)
 ]
 
 ---
 class: center, middle
 
 .inline-images[
-   ![HyperText documents](/img/slide-assets/html-hypertext-doc.svg)
+   ![HyperText documents](img/slide-assets/html-hypertext-doc.svg)
 ]
 
 ---
@@ -100,7 +100,7 @@ template: inverse
 class: center, middle
 
 .inline-images[
-   ![HTML element structure](/img/slide-assets/html-tag-structure.svg)
+   ![HTML element structure](img/slide-assets/html-tag-structure.svg)
 ]
 
 ---
@@ -155,7 +155,7 @@ Think of nested tags like Russian *Matryoshka* dolls.
 
 ---
 
-background-image: url(/img/slide-assets/russian-nesting-dolls.jpg)
+background-image: url(img/slide-assets/russian-nesting-dolls.jpg)
 
 .footnote.white[
    Image Credit: [Bradley Davis](https://www.flickr.com/photos/backpackphotography/2318055128/)
@@ -227,7 +227,7 @@ We call this the **root folder** of your project. You can name it anything you'd
 class: center, middle
 
 .inline-images[
-   ![Root folders](/img/slide-assets/html-folder-structure.png)
+   ![Root folders](img/slide-assets/html-folder-structure.png)
 ]
 
 ---
@@ -237,7 +237,7 @@ class: center, middle
 You'll also want to create a new `root folder` for each *different* website that you build:
 
 .inline-images[
-   ![Root folders](/img/slide-assets/html-multiple-sites.svg)
+   ![Root folders](img/slide-assets/html-multiple-sites.svg)
 ]
 
 ---
@@ -538,7 +538,7 @@ With external CSS, you put all of your CSS in a separate `.css` file, and link t
 class: center, middle
 
 .inline-images[
-   ![Linking to an external stylesheet](/img/slide-assets/css-folder-structure.png)
+   ![Linking to an external stylesheet](img/slide-assets/css-folder-structure.png)
 ]
 
 ---
@@ -575,7 +575,7 @@ class: center, middle
 class: center, middle
 
 .inline-images[
-   ![CSS declaration](/img/slide-assets/css-declaration-diagram.svg)
+   ![CSS declaration](img/slide-assets/css-declaration-diagram.svg)
 ]
 
 ---
@@ -621,7 +621,7 @@ This rules is said to be more **specific** than the last rule.
 When writing CSS, it's helpful to think of every HTML element in your document being wrapped in an invisible box.
 
 .inline-images[
-   ![CSS Box Concept](/img/slide-assets/css-box-concept.svg)
+   ![CSS Box Concept](img/slide-assets/css-box-concept.svg)
 ]
 
 ---
@@ -647,7 +647,7 @@ The box model gives additional properties that we can adjust for each HTML too. 
 class: center, middle
 
 .inline-images[
-   ![CSS Box Model](/img/slide-assets/css-box-model.svg)
+   ![CSS Box Model](img/slide-assets/css-box-model.svg)
 ]
 
 ---
