@@ -11,6 +11,13 @@ class: center, middle, inverse
 ---
 layout: false
 
+# Housekeeping
+
+- Slides: http://redacademy.github.io/web-dev-sampler/
+- Wifi: **RA_Student** / Password: **RA_Learning**
+
+---
+
 # Agenda (6&ndash;7:30 p.m.)
 
 - What is HTML?
