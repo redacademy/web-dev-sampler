@@ -6,7 +6,7 @@ class: center, middle, inverse
 
 # All About <br />Responsive Web Design
 
-.title-logo[![Red logo](../img/red-logo-white.svg)]
+.title-logo[![Red logo](/img/red-logo-white.svg)]
 
 ---
 layout: false
@@ -116,7 +116,7 @@ The `target` attribute is typically used to call a new window or tab to open for
 class: center, middle
 
 .inline-images[
-   ![CSS declaration](../img/slide-assets/css-declaration-diagram.svg)
+   ![CSS declaration](/img/slide-assets/css-declaration-diagram.svg)
 ]
 
 ---
@@ -200,14 +200,14 @@ template: inverse
 class: center, middle
 
 .inline-images-border[
-   ![RED desktop view](../img/slide-assets/red-screenshot-desktop.png)
+   ![RED desktop view](/img/slide-assets/red-screenshot-desktop.png)
 ]
 
 ---
 class: center, middle
 
 .inline-images-border[
-   ![RED mobile view](../img/slide-assets/red-screenshot-phone.png)
+   ![RED mobile view](/img/slide-assets/red-screenshot-phone.png)
 ]
 
 ---
@@ -235,7 +235,7 @@ class: center, middle
 class: center, middle
 
 .inline-images[
-   ![Fail gif](../img/slide-assets/atat-fail.gif)
+   ![Fail gif](/img/slide-assets/atat-fail.gif)
 ]
 
 ---
@@ -296,7 +296,7 @@ According to Ethan Marcotte, responsively designed websites have these elements 
 Flexible grids (and flexible layouts in general) allow us to build websites that dynamically resize to any width:
 
 .center[
-   ![Relative units](../img/slide-assets/rwd-relative-vs-static.gif)
+   ![Relative units](/img/slide-assets/rwd-relative-vs-static.gif)
 ]
 
 .footnote[
@@ -310,7 +310,7 @@ Flexible grids (and flexible layouts in general) allow us to build websites that
 Flexible images and media compliment layouts by scaling down or up accordingly as the viewport changes size:
 
 .center[
-   ![Max and Min values](../img/slide-assets/rwd-max-min.gif)
+   ![Max and Min values](/img/slide-assets/rwd-max-min.gif)
 ]
 
 .footnote[
@@ -324,7 +324,7 @@ Flexible images and media compliment layouts by scaling down or up accordingly a
 Where appropriated, we can also use vector images (in SVG format) to overcome the limitations of scaling up bitmap-format images:
 
 .center[
-   ![Bitmap images vs Vectors](../img/slide-assets/rwd-vector.gif)
+   ![Bitmap images vs Vectors](/img/slide-assets/rwd-vector.gif)
 ]
 
 .footnote[
@@ -338,7 +338,7 @@ Where appropriated, we can also use vector images (in SVG format) to overcome th
 Media queries are CSS rules that allow us to target specific styles for different screen sizes, orientations, and resolutions:
 
 .center[
-   ![Breakpoints](../img/slide-assets/rwd-breakpoints.gif)
+   ![Breakpoints](/img/slide-assets/rwd-breakpoints.gif)
 ]
 
 .footnote[
@@ -635,7 +635,7 @@ Then this happened...
 
 ---
 
-background-image: url(../img/slide-assets/rwd-device-proliferation.jpg)
+background-image: url(/img/slide-assets/rwd-device-proliferation.jpg)
 
 .footnote.white[
    Image Credit: [Luke Wroblewski](https://www.flickr.com/photos/lukew/10430507184/)
@@ -671,7 +671,7 @@ template: inverse
 Mobile-first means exactly that...start by considering the (smallest) mobile context first:
 
 .center[
-   ![Mobile first](../img/slide-assets/rwd-mobile-first.gif)
+   ![Mobile first](/img/slide-assets/rwd-mobile-first.gif)
 ]
 
 .footnote[
@@ -681,12 +681,12 @@ Mobile-first means exactly that...start by considering the (smallest) mobile con
 ---
 class: center, middle
 
-![Desktop first](../img/slide-assets/rwd-desktop-first-diagram.svg)
+![Desktop first](/img/slide-assets/rwd-desktop-first-diagram.svg)
 
 ---
 class: center, middle
 
-![Mobile first](../img/slide-assets/rwd-mobile-first-diagram.svg)
+![Mobile first](/img/slide-assets/rwd-mobile-first-diagram.svg)
 
 ---
 

@@ -6,7 +6,7 @@ class: center, middle, inverse
 
 # Intro to Web Development
 
-.title-logo[![Red logo](../img/red-logo-white.svg)]
+.title-logo[![Red logo](/img/red-logo-white.svg)]
 
 ---
 layout: false
@@ -51,7 +51,7 @@ class: center, middle
 class: center, middle
 
 .inline-images[
-   ![Venn diagram of developer types](../img/slide-assets/full-stack-venn.svg)
+   ![Venn diagram of developer types](/img/slide-assets/full-stack-venn.svg)
 ]
 
 ---
@@ -70,7 +70,7 @@ class: center, middle
 
 ---
 
-background-image: url(../img/slide-assets/task-content-bkgd.jpg)
+background-image: url(/img/slide-assets/task-content-bkgd.jpg)
 
 .footnote.white.right[
    Image Credit: [JD Hancock](https://www.flickr.com/photos/jdhancock/8955273266/in/set-72157630406837258)
@@ -78,7 +78,7 @@ background-image: url(../img/slide-assets/task-content-bkgd.jpg)
 
 ---
 
-background-image: url(../img/slide-assets/action-information-bkgd.jpg)
+background-image: url(/img/slide-assets/action-information-bkgd.jpg)
 
 .footnote[
    Image Credit: [JD Hancock](https://www.flickr.com/photos/83346641@N00/8402660230/)
@@ -86,7 +86,7 @@ background-image: url(../img/slide-assets/action-information-bkgd.jpg)
 
 ---
 
-background-image: url(../img/slide-assets/creation-consumption-bkgd.jpg)
+background-image: url(/img/slide-assets/creation-consumption-bkgd.jpg)
 
 .footnote[
    Image Credit: [JD Hancock](https://www.flickr.com/photos/jdhancock/12708712045/in/set-72157630406837258)
@@ -145,7 +145,7 @@ class: center, middle
 class: center, middle
 
 .inline-images[
-   ![HTML element structure](../img/slide-assets/html-tag-structure.svg)
+   ![HTML element structure](/img/slide-assets/html-tag-structure.svg)
 ]
 
 ---
@@ -196,14 +196,14 @@ class: center, middle
 class: center, middle
 
 .inline-images-border[
-   ![RED desktop view](../img/slide-assets/red-screenshot-desktop.png)
+   ![RED desktop view](/img/slide-assets/red-screenshot-desktop.png)
 ]
 
 ---
 class: center, middle
 
 .inline-images-border[
-   ![RED mobile view](../img/slide-assets/red-screenshot-phone.png)
+   ![RED mobile view](/img/slide-assets/red-screenshot-phone.png)
 ]
 
 ---
@@ -259,8 +259,8 @@ Version control is a system that records changes to a file or set of files over 
 - This website is an example of a private GitHub repository
 
 .inline-images[
-   ![Git logo](../img/slide-assets/git-logo.png)
-   ![GitHub logo](../img/slide-assets/octocat-logo.png)
+   ![Git logo](/img/slide-assets/git-logo.png)
+   ![GitHub logo](/img/slide-assets/octocat-logo.png)
 ]
 
 ---

@@ -6,7 +6,7 @@ class: center, middle, inverse
 
 # First Steps with jQuery
 
-.title-logo[![Red logo](../img/red-logo-white.svg)]
+.title-logo[![Red logo](/img/red-logo-white.svg)]
 
 ---
 layout: false
@@ -63,13 +63,13 @@ class: center, middle
 You can write JS right in your browser too using the **console**:
 
 .inline-images-border[
-   ![Writing scripts in the console](../img/slide-assets/console-screenshot.png)
+   ![Writing scripts in the console](/img/slide-assets/console-screenshot.png)
 ]
 
 You can also use the console to identify bugs in your JS code.
 
 .inline-images-border[
-   ![Error in the console](../img/slide-assets/js-error-screenshot.png)
+   ![Error in the console](/img/slide-assets/js-error-screenshot.png)
 ]
 
 ---
@@ -177,7 +177,7 @@ For example, take a typical HTML document:
 The a visual representation of the DOM for this page would look something like this:
 
 .inline-images[
-   ![DOM diagram](../img/slide-assets/dom-diagram.svg)
+   ![DOM diagram](/img/slide-assets/dom-diagram.svg)
 ]
 
 ---
