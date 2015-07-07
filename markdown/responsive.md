@@ -321,7 +321,7 @@ Flexible images and media compliment layouts by scaling down or up accordingly a
 
 # Flexible Images & Media
 
-Where appropriated, we can also use vector images (in SVG format) to overcome the limitations of scaling up bitmap-format images:
+Where appropriate, we can also use vector images (in SVG format) to overcome the limitations of scaling up bitmap-format images:
 
 .center[
    ![Bitmap images vs Vectors](img/slide-assets/rwd-vector.gif)
@@ -745,9 +745,12 @@ class: center, middle
 # [Smashing Magazine](http://www.smashingmagazine.com/)
 
 ---
-class: center, middle
 
-# [Squarespace](http://squarespace.com/)
+# Resources
+
+- [Media Queries](http://mediaqueri.es/)
+- [This is Responsive](http://bradfrost.github.io/this-is-responsive/)
+- [Improving Smashing Magazine’s Performance: A Case Study](http://www.smashingmagazine.com/2014/09/08/improving-smashing-magazine-performance-case-study/#top)
 
 ---
 
@@ -756,7 +759,7 @@ class: center, middle
 - The difference between fixed, fluid, adaptive, and responsive websites
 - The three things that make a website "responsive"
 - How to write media queries
-- Why and how to take a mobile-first approach
+- Why and how to take a mobile-first approach to RWD
 
 ---
 template: inverse
