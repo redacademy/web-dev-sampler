@@ -74,7 +74,7 @@ In HTML, you can denote 6 different levels of headings with markup like so:
 <h3>Heading 3</h3>
 <h4>Heading 4</h4>
 <h5>Heading 5</h5>
-<h6>Heading 5</h6>
+<h6>Heading 6</h6>
 ```
 
 ---
@@ -402,6 +402,7 @@ Now, we opt for percentages to make them flexible:
 ```css
 .container {
    width: 100%; /* fill the screen */
+   max-width: 960px;
 }
 
 article {
@@ -580,8 +581,6 @@ This is called a **logical operator** and it allows you to specify multiple cond
 
 }
 ```
-
-*We'll revisit logical operators again when we learn JavaScript...*
 
 ---
 

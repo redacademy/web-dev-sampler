@@ -366,7 +366,7 @@ A horizontal rule will create a separator on your page:
 <p>This paragraph shifts to a different topic.</p>
 ```
 
-Notice something special about this elements? It doesn't contain any text, an is represented by a single, self-closing tag. This is called an **empty element**.
+Notice something special about this element? It doesn't contain any text, an is represented by a single, self-closing tag. This is called an **empty element**.
 
 ---
 template: inverse
