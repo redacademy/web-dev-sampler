@@ -319,20 +319,6 @@ Flexible images and media compliment layouts by scaling down or up accordingly a
 
 ---
 
-# Flexible Images & Media
-
-Where appropriate, we can also use vector images (in SVG format) to overcome the limitations of scaling up bitmap-format images:
-
-.center[
-   ![Bitmap images vs Vectors](img/slide-assets/rwd-vector.gif)
-]
-
-.footnote[
-   *Image Credit: [FROONT Open Design Blog](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)*
-]
-
----
-
 # Media Queries
 
 Media queries are CSS rules that allow us to target specific styles for different screen sizes, orientations, and resolutions:

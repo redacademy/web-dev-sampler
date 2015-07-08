@@ -216,7 +216,7 @@ class: center, middle
 
 In JS, we use the **var** keyword to define our variables.
 
-We can define variables as strings (with HTML tags):
+We can define variables as **strings** (even with HTML tags):
 
 ```javascript
 var color = 'red';
@@ -226,13 +226,13 @@ var numberString = '10';
 var question = 'What\'s your name?';
 ```
 
-String must be wrapped in quotes, and quotes within a string must be "escaped" with a backslash.
+Strings must be wrapped in quotes, and quotes within a string must be **escaped** with a backslash.
 
 ---
 
 # Variables
 
-Variables can be integers or booleans:
+Variables can be **integers** or **booleans**:
 
 ```javascript
 var height = 7;
@@ -254,7 +254,7 @@ class: center, middle
 
 # Functions
 
-To create a function in JS, we use the **function** keyword, and we can follow it by a variable name to store it for re-use later:
+To create a function in JS, we use the **function** keyword, and we can follow it by a name of our choosing to store it for re-use later:
 
 ```javascript
 function add(a, b) {
@@ -297,7 +297,9 @@ Let's get to the fun stuff and look at a basic example. Take our previous code s
    <h1>My Page</h1>
    <p class="intro">Welcome to my page!<p>
    <p>Thanks for stopping by.</p>
+
    <!-- The rest of the page content... -->
+
    <script src="js/jquery-1.11.3.js"></script>
    <script src="js/my-script-file.js"></script>
 </body>
@@ -606,6 +608,7 @@ Event delegation allows us to attach events to children of an element, even if t
 
 ```javascript
 $('div').on('click', 'button', function() {
+   // Code to run when button is clicked:
    alert('You clicked the button');
 });
 ```
@@ -628,7 +631,8 @@ To access these methods and properties, we must pass in the event object as a pa
 
 ```javascript
 $('div').on('click', 'button', function(event) {
-   // Code to run when button is clicked
+   // Code to run when button is clicked:
+   alert('You clicked the button');
 });
 ```
 
