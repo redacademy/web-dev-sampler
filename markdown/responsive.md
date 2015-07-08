@@ -641,15 +641,6 @@ background-image: url(img/slide-assets/rwd-device-proliferation.jpg)
 ]
 
 ---
-class: center, middle
-
-### Reductionist approach to breakpoints:
-
-> "Start with the small screen first, then expand until it looks like shit. TIME FOR A BREAKPOINT!"
-
-&mdash;Stephen Hay
-
----
 
 # Exercise 2
 
@@ -749,6 +740,8 @@ class: center, middle
 
 - [Media Queries](http://mediaqueri.es/)
 - [This is Responsive](http://bradfrost.github.io/this-is-responsive/)
+- [Responsive Web Design](http://abookapart.com/products/responsive-web-design) by Ethan Marcotte
+- [Mobile First](http://abookapart.com/products/mobile-first) by Luke Wroblewski
 - [Improving Smashing Magazine’s Performance: A Case Study](http://www.smashingmagazine.com/2014/09/08/improving-smashing-magazine-performance-case-study/#top)
 
 ---

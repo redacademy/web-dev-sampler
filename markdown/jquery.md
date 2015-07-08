@@ -80,7 +80,11 @@ class: center, middle
 ]
 
 ---
+template: inverse
 
+# What is jQuery?
+
+---
 class: center, middle
 
 ### What is a jQuery?
@@ -356,7 +360,6 @@ It's that easy using the `.css()` method in jQuery! We can also store our jQuery
 ```javascript
 var $intro = $('.intro');
 $intro.css('color', 'red');
-$intro.addClass('greeting');
 ```
 
 ---
@@ -389,7 +392,6 @@ Using the code from our previous example, our script file would now look like th
 $(function() {
    var $intro = $('.intro');
    $intro.css('color', 'red');
-   $intro.addClass('greeting');
 });
 ```
 
@@ -397,15 +399,13 @@ $(function() {
 
 # jQuery Has Methods Too
 
-We just used the `.css()` and `.ready()` methods, but jQuery has many more.*
+We just used the `.css()` and `.ready()` methods, but jQuery has many more.
 
 For instance we can use jQuery methods to traverse the DOM:
 
 - `.children()`
 - `.parents()`
 - `.siblings()`
-
-.footnote[.red[ * ] Many of these methods are summarized on pages 304-305 of your text book.]
 
 ---
 
