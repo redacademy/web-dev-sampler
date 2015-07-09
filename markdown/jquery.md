@@ -453,16 +453,6 @@ $('#menu').css('margin-right', '10px');
 ```
 
 ---
-template: inverse
-
-# BREAK TIME
-
----
-template: inverse
-
-# Doing More with the DOM
-
----
 
 # Getting Element Content
 
@@ -470,39 +460,6 @@ We've already seen a preview of how jQuery helps you manipulate the DOM, but let
 
 - the `.html()` method will get the HTML inside the first element of the matched set (and its descendents)
 - the `.text()` method will just get the text from inside first element of the matched set (and its descendents)
-
----
-
-# Updating Content
-
-We can use the `.prepend()`, `.append()`, and `.remove()` methods to update content:
-
-```html
-<ul class="numbers">
-   <li>one</li>
-   <li>two</li>
-</ul>
-```
-
-```javascript
-// Add new a new item to the end of the list:
-var newContent = '<li>three</li>';
-$('.numbers').append(newContent);
-
-// Change the content of the second list item:
-$('.numbers li:nth-child(2)').text('2');
-
-// Remove the first item from the list:
-$('.numbers').children(':first').remove();
-```
-
----
-
-# Updating Content
-
-Note that `.prepend()` and `.append()` will add content inside the element's opening and closing tags respectively.
-
-The `.before()` and `.after` methods will add content just before or just after the selected element.
 
 ---
 
@@ -522,46 +479,17 @@ $('ul').removeClass('menu');
 
 ---
 
-# Working with Attributes
-
-We can also target other element attributes using the `.attr()` and `.prop()` methods:
-
-```javascript
-$('li').attr('id', 'active');
-$('input').prop('disabled', true)
-```
-
-Ostensibly, `.attr()` and `.prop()` do very similar things, but `.prop()` offers a slightly more modern, semantic approach and allows you to work with element attributes that are booleans, like the example above.
-
----
-
-# Working with CSS
-
-As we saw in an earlier example, we can also use jQuery to get and update an elements styles:
-
-```javascript
-// Get the font size and log it:
-var $fontSize = $('p').css('font-size');
-console.log($fontSize);
-
-// Change the font size:
-$('p').css('font-size', '18px');
-```
-
-We can even make multiple adjustments:
-
-```javascript
-$('p').css({'font-size': '18px', 'font-weight': 'bold'});
-```
-
----
-
 # Exercise 1
 
 Let's try traversing the DOM to make some change to an HTML document:
 
 <iframe height='268' scrolling='no' src='//codepen.io/redacademy/embed/OVNjLB/?height=268&theme-id=0&default-tab=js' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/redacademy/pen/OVNjLB/'>OVNjLB</a> by RED Academy (<a href='http://codepen.io/redacademy'>@redacademy</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
+
+---
+template: inverse
+
+# BREAK TIME
 
 ---
 template: inverse
