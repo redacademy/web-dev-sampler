@@ -15,6 +15,8 @@ layout: false
 
 - Slides: http://redacademy.github.io/web-dev-sampler/
 - Wifi: **RA_Student** / Password: **RA_Learning**
+- Web Development Instructors: [@corbin](https://twitter.com/corblog) and [@mandiwise](https://twitter.com/mandiwise)
+- **Follow RED:** [@RedAcademy](https://twitter.com/redacademy) #summersampler
 
 ---
 
