@@ -15,8 +15,7 @@ layout: false
 
 - Slides: http://redacademy.github.io/web-dev-sampler/
 - Wifi: **RA_Student** / Password: **RA_Learning**
-- Web Development Instructors: [@corblog](https://twitter.com/corblog) and [@mandiwise](https://twitter.com/mandiwise)
-- **Follow RED:** [@RedAcademy](https://twitter.com/redacademy) #summersampler
+- **Follow RED:** [@RedAcademy](https://twitter.com/redacademy) #redacademy
 
 ---
 
@@ -28,11 +27,29 @@ layout: false
 4. The best part...community!
 5. What makes a great developer?
 6. Learning resources
+7. Q & A
 
 ---
 template: inverse
 
-# What Do Web Developers Do?
+# What is the web?
+
+---
+class: center, middle
+
+![HTTP request diagram](img/slide-assets/http-request-diagram.svg)
+
+---
+template: inverse
+
+# What do web developer do?
+
+---
+class: center, middle
+
+.inline-images[
+   ![What web developers do](img/slide-assets/what-we-do.png)
+]
 
 ---
 class: center, middle
@@ -97,7 +114,7 @@ background-image: url(img/slide-assets/creation-consumption-bkgd.jpg)
 ---
 template: inverse
 
-# Where Do Web Developers Work?
+# Where do web developers work?
 
 ---
 
@@ -146,13 +163,6 @@ class: center, middle
 ---
 class: center, middle
 
-.inline-images[
-   ![HTML element structure](img/slide-assets/html-tag-structure.svg)
-]
-
----
-class: center, middle
-
 > "HTML is the cockroach that <br />will survive a nuclear winter."
 
 &mdash;Jeffery Zeldman
@@ -169,6 +179,11 @@ class: center, middle
 ]
 
 ---
+class: center, middle
+
+![HTTP request diagram](img/slide-assets/http-request-diagram.svg)
+
+---
 
 # Client-side / Server-side
 
@@ -177,15 +192,6 @@ class: center, middle
 - Server-side scripts run on a **server**
 - PHP, Ruby, and Python run on the server side
 - But JS can run server-side as well today using Node.js...
-
----
-
-# JavaScript vs. jQuery
-
-- jQuery **is** JavaScript
-- It's cross-browser friendly
-- It's usually easier to learn at first
-- You have to add the jQuery library to your website to use it
 
 ---
 class: center, middle
@@ -235,22 +241,15 @@ class: center, middle
 
 ### What is Version Control?
 
-Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
+A version control system records changes to files over time so that you can recall specific versions later.
 
 ---
 
 # What is Git?
 
-- Traditional version control system are "centralized" where a single central copy of a project lives on server, and developers **commit** their changes to it
-- But there are some downsides to this approach...
-
----
-
-# What is Git?
-
+- Git is like Time Machine for your code
 - Git is a **distributed version control system (DVCS)**
 - Developers **clone** copies of the **repository** locally with all of its previous history intact
-- There can still be an "authoritative" repository that team members push to and pull from
 
 ---
 
@@ -264,6 +263,15 @@ Version control is a system that records changes to a file or set of files over 
    ![Git logo](img/slide-assets/git-logo.png)
    ![GitHub logo](img/slide-assets/octocat-logo.png)
 ]
+
+---
+
+# Why Learn All These Things?
+
+- Become a creator, not just a user
+- There aren't enough skill front-end devs to go around!
+- Freedom to work for just about any kind of organization/company
+- And my favourite part...
 
 ---
 template: inverse
@@ -298,7 +306,7 @@ class: center, middle
 ---
 template: inverse
 
-# What Makes a Great Developer?
+# What makes a great front-end developer?
 
 ---
 
@@ -348,5 +356,5 @@ template: inverse
 class: center, middle
 
 .large[
-   RED Academy&#8217;s<br />Web Developer Foundation class starts on July 13!
+   RED Academy's<br />fall courses start on September 21!
 ]

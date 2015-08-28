@@ -129,6 +129,17 @@ Notice that the text is wrapped in `<p>` tags, and the closing tag contains a `/
 
 ---
 
+# A Basic Element
+
+And if we want to add a second paragraph, we'll enclose its text inside of its own set of `p` tags:
+
+```html
+<p>The quick brown fox jumps over the lazy dog.</p>
+<p>Grumpy wizards make toxic brew for the evil Queen and Jack.</p>
+```
+
+---
+
 # Adding Attributes
 
 An attribute is a bit of information we add inside the element's opening tag.
@@ -148,7 +159,9 @@ Some attributes can be used globally on any HTML element, but many are element-s
 We can also **nest** our tags in HTML. For example, to add emphasis to our paragraph text we can use the `<em>` tags.
 
 ```html
-<p><em>The quick brown fox jumps over the lazy dog.</em></p>
+<p>
+   <em>The quick brown fox jumps over the lazy dog.</em>
+</p>
 ```
 
 Think of nested tags like Russian *Matryoshka* dolls.
@@ -177,7 +190,7 @@ To create a basic webpage, we need three things: a **code editor**, a **file** w
 
 # Code Editors
 
-Any program that edits plain text files can be used as a code editor (e.g. Notepad on Windows or TextEdit on a Mac).
+Any program that edit plain text files can be used as a code editor (e.g. Notepad on Windows).
 
 But programs that are specially designed for editing code offer extra features like **syntax highlighting**.
 
@@ -409,16 +422,21 @@ template: inverse
 
 # Link Elements
 
-Links are the lifeblood of the web, so let's take a look at how we make one:
+Links are the lifeblood of the web. This is how we make them:
+
+**Example 1:**
 
 ```html
-<p>The <a href="https://developer.mozilla.org/en-US/" target="_blank">
-Mozilla Developer Network</a> is a great resource!</p>
+<a href="http://www.redacademy.com">Visit the RED Academy website!</a>
+```
+
+**Example 2:**
+
+```html
+<p>The <a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network</a> is a great resource!</p>
 ```
 
 **Note** that any text contained within the `<a>` tags will be linked to the page inside the quotes of the `href` attribute.
-
-The `target` attribute is typically used to call a new window or tab to open for external links. Internal links don't need the `target` attribute.
 
 ---
 
@@ -526,7 +544,7 @@ With external CSS, you put all of your CSS in a separate `.css` file, and link t
 <html>
    <head>
       <title>My Page</title>
-      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="style.css">
    <head>
    <body>
       <p>Hello, world!</p>
@@ -896,5 +914,5 @@ template: inverse
 class: center, middle
 
 .large[
-   RED Academy's<br />Web Developer Foundation class starts on July 13!
+   RED Academy's<br />fall courses start on September 21!
 ]
