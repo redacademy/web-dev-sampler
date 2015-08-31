@@ -42,7 +42,7 @@ class: center, middle
 ---
 template: inverse
 
-# What do web developer do?
+# What do web developers do?
 
 ---
 class: center, middle
@@ -62,9 +62,9 @@ class: center, middle
 
 # Types of Developers
 
-- **Front-end** web developers typically work on the parts of a website you can see in a browser
 - **Back-end** web developers usually work on the part of the website that makes sure all of the right data gets sent to and from the server to the browser
-- **Full-stack** web developers on both the browser and database sides of a website
+- **Front-end** web developers typically work on the parts of a website you can see in a browser
+- **Full-stack** web developers work on both the browser and server/database sides of a website
 
 ---
 class: center, middle
@@ -77,7 +77,9 @@ class: center, middle
 
 # And Web Designers...
 
-- **Web designers** (often called "User Experience Designers") make sure our websites not only look great, but also work in the way the user expects them too
+- **Web designer** is a bit an antiquated, catch-all term
+- Today, you're more likely to have **user interface (UI) designer** craft the look and feel of a website
+- There are also UX designers, information architects, interaction designers, and content strategists
 - UX designers play a big role in helping us get to know our users better, and testing our websites so we can make sure they support users in accomplishing their goals
 
 ---
@@ -269,7 +271,7 @@ A version control system records changes to files over time so that you can reca
 # Why Learn All These Things?
 
 - Become a creator, not just a user
-- There aren't enough skill front-end devs to go around!
+- There aren't enough skilled front-end devs to go around!
 - Freedom to work for just about any kind of organization/company
 - And my favourite part...
 
@@ -342,7 +344,8 @@ template: inverse
 
 # Where to Start?
 
-- [Code Academy](http://www.codecademy.com/)
+- [Codeacademy](http://www.codecademy.com/)
+- [Code School](http://codeschool.com/)
 - [CSS Tricks](https://css-tricks.com/)
 - [Tuts+](http://code.tutsplus.com/)
 - ...and of course, RED Academy!
