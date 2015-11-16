@@ -123,13 +123,16 @@ a {
 .masthead h1 {
    text-align: center;
    margin: 1.5em auto 1em;
-   width: 300px;
-   height: 74px;
-   background: url('../img/back-to-school-logo.svg') no-repeat;
-   background-size: 300px 74px;
+   width: 416px;
+   height: 134px;
+   background: url('../img/winter-sampler-banner.jpg') no-repeat center center;
+   background-size: 416px 134px;
    text-indent: 100%;
    white-space: nowrap;
    overflow: hidden;
+   -webkit-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.5);
+      -moz-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.5);
+           box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.5);
 }
 
 @media (min-width: 38em) {
@@ -138,9 +141,9 @@ a {
    }
 
    .masthead h1 {
-      width: 400px;
-      height: 99px;
-      background-size: 400px 99px;
+      width: 600px;
+      height: 206px;
+      background-size: 600px 206px;
    }
 }
 
@@ -150,9 +153,9 @@ a {
    }
 
    .masthead h1 {
-      width: 502px;
-      height: 124px;
-      background-size: 502px 124px;
+      width: 720px;
+      height: 248px;
+      background-size: 720px 248px;
    }
 }
 
