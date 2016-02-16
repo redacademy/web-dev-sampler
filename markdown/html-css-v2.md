@@ -28,7 +28,7 @@ layout: false
 
 ---
 
-# Agenda (7:00&ndash;8 p.m.)
+# Agenda (7&ndash;8:00 p.m.)
 
 - What is CSS?
 - Adding CSS to your website
