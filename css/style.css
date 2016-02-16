@@ -121,9 +121,10 @@ a {
 }
 
 .masthead h1 {
-   text-align: center;
+   color: #808184;
    margin: 1.5em auto 1em;
-   width: 416px;
+   text-align: center;
+   /*width: 416px;
    height: 134px;
    background: url('../img/winter-sampler-banner.jpg') no-repeat center center;
    background-size: 416px 134px;
@@ -132,10 +133,10 @@ a {
    overflow: hidden;
    -webkit-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.5);
       -moz-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.5);
-           box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.5);
+           box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.5);*/
 }
 
-@media (min-width: 38em) {
+/*@media (min-width: 38em) {
    .masthead .logo {
       max-width: 40%;
    }
@@ -157,7 +158,7 @@ a {
       height: 248px;
       background-size: 720px 248px;
    }
-}
+}*/
 
 .course-list {
    list-style: none;
@@ -221,6 +222,7 @@ footer {
 }
 
 .copyright {
+   color: #808184;
    font-weight: 700;
 }
 
