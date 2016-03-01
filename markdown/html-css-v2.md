@@ -138,7 +138,14 @@ If we wanted to markup a paragraph in HTML, our code would look like this:
 <p>The quick brown fox jumps over the lazy dog.</p>
 ```
 
-Notice that the text is wrapped in `<p>` tags, and the closing tag contains a `/` after the opening angle bracket.
+Notice that the text is wrapped in `<p>` tags, and the closing tag contains a `/` (e.g. `</p>`) after the opening angle bracket. 
+
+*Element tags almost always come in pairs.* 
+
+For a full list of elements, look up <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network - HTML 
+</a>
+
+Link: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
 ---
 
@@ -594,6 +601,10 @@ p {
 ```
 
 We can also use CSS to **font size**, **background colours**, the **position** of elements in the browser window, and much more.
+
+For a full list of available properties, check out <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">Mozilla Develop Network - CSS</a>
+
+Link: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 
 ---
 
