@@ -565,6 +565,8 @@ To do that, create a `style.css` file in the root folder of your website.
 
 Next, just like in the previous example, add a `<link>` tag to the `<head>` of your HTML file so it knows to apply the styles that we add to this file later on to your page.
 
+**Be mindful of relative paths of the style.css, in relation to your index.html file**
+
 ---
 template: inverse
 
@@ -600,7 +602,7 @@ p {
 }
 ```
 
-We can also use CSS to **font size**, **background colours**, the **position** of elements in the browser window, and much more.
+We can also use CSS to **font size**, **background color**, the **position** of elements in the browser window, and much more.
 
 For a full list of available properties, check out <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">Mozilla Develop Network - CSS</a>
 
@@ -668,15 +670,15 @@ Using the box model to style our HTML elements, we can use CSS properties such a
 
 ```css
 p {
-   margin: 15px;
    border-top: 1px solid black;
    border-bottom: 3px dotted blue;
    padding-left: 30px;
+   margin: 15px;
    width: 300px;
 }
 ```
 
-You can target specific sides of a box by adding `-bottom`, `-top`, `-left`, or `-right` to the properties. Otherwise, the style will apply to all sides.
+You can target specific sides of a box by adding **`-bottom`, `-top`, `-left`,** or **`-right`** to the properties. Otherwise, the style will apply to all sides.
 
 ---
 
@@ -693,7 +695,16 @@ header {
 
 If you include **two properties**, they are applied to the **top/bottom** and then **left/right**.
 
-If you include **four properties**, they will be applied in the order **top**, **right**, **bottom**, and **left** (like going around a clock).
+If you include **four properties**, they will be applied in the order **top**, **right**, **bottom**, and **left** (clock-wise).
+
+Look for patterns in your CSS property values - e.g.
+
+```margin: 10px 0 10px 0;```
+
+can be re-written as: 
+
+```margin: 10px 0;```
+
 
 ---
 
@@ -701,13 +712,23 @@ If you include **four properties**, they will be applied in the order **top**, *
 
 Let's style up some of the paragraphs using some of the CSS properties we just learned.
 
-First, let's organize our webpage content in an `article` tag. Set the width of the `article` to **800px**, and **center it** on the page using the margin trick.
+**HTML**
 
-On the `body` element, set the font to `Arial, sans-serif`.
+First, in our **index.html** file: let's organize our webpage content in a set of  `<article></article>` tag.
 
-For all paragraphs, use CSS to add **24px of margin below** them. Adjust their `line-height` to be **1.25**.
+**CSS**
 
-Lastly, set the `color` of the `h1` to any colour but black.
+In our **style.css** file, set the `width` of the `article {...}` to **800px**.
+
+Now *center* this same `article {...}` element using the margin trick - ```margin:0 auto;```
+
+On the `body {...}` element, set the font to `Arial, sans-serif`.
+
+For all paragraphs `p {...}`, add a bottom margin: `margin-bottom` with a **24px** value. 
+
+Next, adjust the line-height: `line-height` property and set its value to **1.25**.
+
+Lastly, set the `color` property of all h1 elements: `h1{...}` to `green`.
 
 ---
 template: inverse
@@ -809,13 +830,21 @@ Classes are also reusable, which can help make your CSS more efficient.
 
 # Exercise 5
 
-Let's add classes and IDs to our webpage to target our CSS with more specificity.
+**HTML**
 
-Add a class of `title` to the `h1` and update your CSS to target your custom heading colour at the new class instead of all `h1` elements.
+In our **index.html** file, let's add classes and IDs to our webpage to target our CSS with more specificity.
+
+Add a class of `title` to the `<h1>` element and update your CSS to target your custom heading colour at the new class instead of all `h1` elements.
+
+Hint: `<h1 class="...">`
 
 Add a class of `author` to the paragraph containing the author name. Now make only that line italic using CSS.
 
-Lastly, add an ID of `source` to the excerpt's link tag and set a custom text colour for that ID.
+Lastly, add an ID of `source` to the excerpt's link tag 
+
+**CSS**
+
+In our **style.css** file, add a CSS rule for this `#source` id we just created and adjust its `color` property to `red`.
 
 ---
 
