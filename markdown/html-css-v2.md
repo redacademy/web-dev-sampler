@@ -138,14 +138,11 @@ If we wanted to markup a paragraph in HTML, our code would look like this:
 <p>The quick brown fox jumps over the lazy dog.</p>
 ```
 
-Notice that the text is wrapped in `<p>` tags, and the closing tag contains a `/` (e.g. `</p>`) after the opening angle bracket. 
+Notice that the text is wrapped in `<p>` tags, and the closing tag contains a `/` (e.g. `</p>`) after the opening angle bracket.
 
-*Element tags almost always come in pairs.* 
+*Element tags almost always come in pairs.*
 
-For a full list of elements, look up <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network - HTML 
-</a>
-
-Link: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+For a full list of elements, check out the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
 
 ---
 
@@ -697,38 +694,39 @@ If you include **two properties**, they are applied to the **top/bottom** and th
 
 If you include **four properties**, they will be applied in the order **top**, **right**, **bottom**, and **left** (clock-wise).
 
-Look for patterns in your CSS property values - e.g.
+---
 
-```margin: 10px 0 10px 0;```
+# Box Model Shorthand
 
-can be re-written as: 
+Look for patterns in your CSS property values, for example:
 
-```margin: 10px 0;```
+```css
+header {
+   margin: 10px 0 10px 0;
+}
+```
 
+Can be re-written as:
+
+```css
+header {
+   margin: 10px 0;
+}
+```
+
+*Your goal as a web dev is to do as little typing as possible!*
 
 ---
 
 # Exercise 4
 
-Let's style up some of the paragraphs using some of the CSS properties we just learned.
+First, in our **index.html** file: let's organize our webpage content in an `<article>` element.
 
-**HTML**
+In our **style.css** file, set the `width` of the `article` to **800px**. Now *center* this same `article` element using the margin trick: `margin: 0 auto;`
 
-First, in our **index.html** file: let's organize our webpage content in a set of  `<article></article>` tag.
+On the `body` element, set the font to `Arial, sans-serif`.
 
-**CSS**
-
-In our **style.css** file, set the `width` of the `article {...}` to **800px**.
-
-Now *center* this same `article {...}` element using the margin trick - ```margin:0 auto;```
-
-On the `body {...}` element, set the font to `Arial, sans-serif`.
-
-For all paragraphs `p {...}`, add a bottom margin: `margin-bottom` with a **24px** value. 
-
-Next, adjust the line-height: `line-height` property and set its value to **1.25**.
-
-Lastly, set the `color` property of all h1 elements: `h1{...}` to `green`.
+For all paragraph elements, add a bottom margin: `margin-bottom` with a **24px** value. Also adjust the `line-height` property and set its value to **1.25** for your paragraphs.
 
 ---
 template: inverse
@@ -830,19 +828,13 @@ Classes are also reusable, which can help make your CSS more efficient.
 
 # Exercise 5
 
-**HTML**
+In our **index.html** file, add a class of `title` to the `<h1>` element and update your CSS to target your custom heading colour at the new class instead of all `h1` elements.
 
-In our **index.html** file, let's add classes and IDs to our webpage to target our CSS with more specificity.
-
-Add a class of `title` to the `<h1>` element and update your CSS to target your custom heading colour at the new class instead of all `h1` elements.
-
-Hint: `<h1 class="...">`
+**Hint:** `<h1 class="...">`
 
 Add a class of `author` to the paragraph containing the author name. Now make only that line italic using CSS.
 
-Lastly, add an ID of `source` to the excerpt's link tag 
-
-**CSS**
+Lastly, add an ID of `source` to the excerpt's link tag
 
 In our **style.css** file, add a CSS rule for this `#source` id we just created and adjust its `color` property to `red`.
 
