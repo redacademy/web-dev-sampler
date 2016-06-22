@@ -853,5 +853,5 @@ template: inverse
 class: center, middle
 
 .large[
-   RED Academy's<br />spring cohort starts in <br />April!
+   RED Academy's<br />summer cohort starts <br />in July!
 ]
