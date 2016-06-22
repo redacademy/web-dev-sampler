@@ -601,10 +601,6 @@ p {
 
 We can also use CSS to **font size**, **background color**, the **position** of elements in the browser window, and much more.
 
-For a full list of available properties, check out <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">Mozilla Develop Network - CSS</a>
-
-Link: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
-
 ---
 
 # Writing CSS Rules
