@@ -33,7 +33,6 @@ layout: false
 - What is CSS?
 - Adding CSS to your website
 - Writing CSS rules
-- Classes and IDs
 
 ---
 template: inverse
@@ -725,116 +724,6 @@ On the `body` element, set the font to `Arial, sans-serif`.
 For all paragraph elements, add a bottom margin: `margin-bottom` with a **24px** value. Also adjust the `line-height` property and set its value to **1.25** for your paragraphs.
 
 ---
-template: inverse
-
-# Class & IDs
-
----
-
-# What are they?
-
-Every HTML element can have `class` and `id` attributes added to it like this:
-
-```html
-<h1 class="site-title" id="masthead">My Awesome Website</h1>
-```
-
-Classes and IDs make it much easier to target specific CSS (and JavaScript) to elements in our HTML.
-
----
-
-# What's the difference?
-
-Think about an actual school...a student can be in multiple classes, but each student will have a unique name.
-
-Similarly, if an HTML element has an ID, that ID must be unique to the element. But a class can be applied to as many elements as you like.
-
----
-
-# Classes in CSS
-
-To target an element's class in your CSS, you would use a dot plus the class name:
-
-```html
-<h1 class="site-title" id="masthead">My Awesome Website</h1>
-```
-
-```css
-.site-title {
-   font-weight: bold;
-}
-```
-
----
-
-# IDs in CSS
-
-To target an element's ID in your CSS, you would use a pound sign plus the ID name:
-
-```html
-<h1 class="site-title" id="masthead">My Awesome Website</h1>
-```
-
-```css
-.site-title {
-   font-weight: bold;
-}
-
-#masthead {
-   color: red;
-}
-```
-
----
-
-# Multiple Classes
-
-You can specify multiple classes for an element by separating them with a space:
-
-```html
-<h1 class="site-title home-title" id="masthead">My Awesome Website</h1>
-```
-
-And if you wanted to target an element that had both of those classes, your CSS would look like this:
-
-```css
-.site-title.home-title {
-   font-size: 32px;
-}
-```
-
----
-class: center, middle
-
-.large[
-   Which do you pick?
-]
-
----
-
-# Classes vs. IDs
-
-In general, you'll want to **stick to classes** wherever possible.
-
-IDs are considered to be **more specific** than classes in your CSS, which makes the ID-based styles you apply to your website harder to override later on.
-
-Classes are also reusable, which can help make your CSS more efficient.
-
----
-
-# Exercise 5
-
-In our **index.html** file, add a class of `title` to the `<h1>` element and update your CSS to target your custom heading colour at the new class instead of all `h1` elements.
-
-**Hint:** `<h1 class="...">`
-
-Add a class of `author` to the paragraph containing the author name. Now make only that line italic using CSS.
-
-Lastly, add an ID of `source` to the excerpt's link tag
-
-In our **style.css** file, add a CSS rule for this `#source` id we just created and adjust its `color` property to `red`.
-
----
 
 # What We've Learned
 
@@ -842,7 +731,6 @@ In our **style.css** file, add a CSS rule for this `#source` id we just created 
 - What HTML is and it's basic elements
 - How to include CSS in our webpage
 - What the box model is
-- How to use classes and IDs to target our styles
 
 ---
 template: inverse
@@ -853,5 +741,5 @@ template: inverse
 class: center, middle
 
 .large[
-   RED Academy's<br />summer cohort starts <br />in July!
+   RED Academy's<br />winter cohort starts <br />in January!
 ]
