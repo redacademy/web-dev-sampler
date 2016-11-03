@@ -111,14 +111,6 @@ template: inverse
 
 ---
 
-class: center, middle
-
-.inline-images[
-   ![HTML element structure](img/slide-assets/html-tag-structure.svg)
-]
-
----
-
 # Using HTML Elements
 
 HTML elements are surrounded with angle brackets so the browser know how to distinguish them from the text that we actually see on a webpage.
@@ -181,14 +173,6 @@ We can also **nest** our tags in HTML. For example, to add emphasis to our parag
 ```
 
 Think of nested tags like Russian *Matryoshka* dolls.
-
----
-
-background-image: url(img/slide-assets/russian-nesting-dolls.jpg)
-
-.footnote.white[
-   Image Credit: [Bradley Davis](https://www.flickr.com/photos/backpackphotography/2318055128/)
-]
 
 ---
 template: inverse
