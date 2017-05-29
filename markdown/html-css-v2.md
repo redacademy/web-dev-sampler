@@ -725,5 +725,5 @@ template: inverse
 class: center, middle
 
 .large[
-   RED Academy's<br />winter cohort starts <br />in January!
+   RED Academy's<br />summer courses start on <br />July 4!
 ]
