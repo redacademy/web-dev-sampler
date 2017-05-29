@@ -914,5 +914,5 @@ template: inverse
 class: center, middle
 
 .large[
-   RED Academy's<br />winter courses start on <br />January 11!
+   RED Academy's<br />summer courses start on <br />July 4!
 ]
