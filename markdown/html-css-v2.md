@@ -14,11 +14,11 @@ layout: false
 # Housekeeping
 
 - Slides: http://redacademy.github.io/web-dev-sampler/
-- Wifi: **RA_Student** / Password: **RA_Learning**
+- Wifi: **WeWork** / Password: **P@ssw0rd**
 
 ---
 
-# Agenda (6&ndash;7:00 p.m.)
+# Agenda (First half)
 
 - What is HTML?
 - Elements & Attributes
@@ -28,7 +28,7 @@ layout: false
 
 ---
 
-# Agenda (7&ndash;8:00 p.m.)
+# Agenda (Second half)
 
 - What is CSS?
 - Adding CSS to your website
@@ -51,6 +51,10 @@ template: inverse
 class: center, middle
 
 ![HTTP request diagram](img/slide-assets/http-request-diagram.svg)
+
+--
+
+Let's take a look...
 
 ---
 template: inverse
@@ -221,103 +225,21 @@ Virtually all websites share the same basic structure. They contain a `<head>` a
 
 # Exercise 1
 
-Let's see what happens when we create an HTML file and add this code from the previous slide to it.
+Let's see what happens when we create our first piece of HTML code.
 
-If you haven't already, you'll need to download a code editor such as Atom to do this.
+Traditionally, you'd use a text editor, but we'll be using codepen.
 
-Save your new webpage as `index.html` and open it in a web browser to see what it looks like.
+https://codepen.io/pen
 
----
-class: center, middle
-
-### Why call it index.html?
-
-When you name a file `index.html` (most) web servers will automatically know that this is the homepage.
+Try making a `<p>` element now.
 
 ---
 
-# One Folder = One Site
+# Codepen
 
-Before long, you're going to want to add additional pages to your site, or other files (like images).
-
-To keep all of those HTML files and your other webpage assets organized, you'll want to set up a folder somewhere on your computer.
-
-We call this the **root folder** of your project. You can name it anything you'd like and it can contain any number of sub‐folders to further organize your files.
-
----
-class: center, middle
-
-.inline-images[
-   ![Root folders](img/slide-assets/html-folder-structure.png)
-]
-
----
-
-#  New Site = New Folder
-
-You'll also want to create a new `root folder` for each *different* website that you build:
-
-.inline-images[
-   ![Root folders](img/slide-assets/html-multiple-sites.svg)
-]
-
----
-
-# File/Folder Naming Tips
-
-Use these sanity-saving tips to name your folders and files:
-
-- Stick to lowercase consistently
-- Don't use space in your file names, instead use hyphens or underscores to separate words
-- Don't use special characters in your file names
-- Choose logical and descriptive names for files and folders
-
----
-template: inverse
-
-# Doctypes
-
----
-
-# A Little Bit of History
-
-Doctypes have a long and complicated history on the web.
-
-The important thing to know is that the doctype declaration is not an HTML tag, but rather tells the browser which version of HTML the webpage uses.
-
----
-
-# Then & Now...
-
-**XHTML:**
-
-```html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-```
-
-**HTML5:**
-
-```html
-<!DOCTYPE html>
-```
-
----
-
-# Where Does It Go?
-
-Doctype declarations go at the top of your `.html` files:
-
-```html
-<!DOCTYPE html>
-<html>
-   <head>
-      <title>This is the Page Title</title>
-   </head>
-   <body>
-      <p>This is a paragraph.</p>
-   </body>
-</html>
-```
+- A sandbox/playground for coding HTML
+- Takes care of some boilerplate for us
+- Takes care of creating & linking files
 
 ---
 template: inverse
@@ -426,7 +348,8 @@ And if a page is in a sub-folder:
 
 # Exercise 2
 
-**[Download this text file](resources/aiw-text.txt)** and paste its content into your `index.html` file inside your code editor.
+
+https://codepen.io/redcjrc/pen/XPjGNJ
 
 Let's mark this content up with **paragraph tags**, and **heading tags** for the book title and chapter title.
 
@@ -454,20 +377,6 @@ class: center, middle
 CSS stands for **Cascading Style Sheets**.
 
 CSS describes how an HTML element will be rendered on a screen. In other words, it allows us to add **styles** to our HTML.
-
----
-
-# Before CSS...
-
-In the old days, we used to add styles to our websites like this:
-
-```html
-<p>
-   <font face="Arial" color="red" size="2">Some text...</font>
-</p>
-```
-
-Now imagine a large website with dozens of pages...can you see a major flaw in styling a website this way?
 
 ---
 class: center, middle
@@ -534,18 +443,6 @@ class: center, middle
 - It's easy to link the same stylesheet to multiple pages across your website
 - It's much easier to make global changes to your CSS that are immediately picked up throughout the website
 - Your website's content is clearly separated from your website's style
-
----
-
-# Exercise 3
-
-Let's **add a CSS file to your website now**.
-
-To do that, create a `style.css` file in the root folder of your website.
-
-Next, just like in the previous example, add a `<link>` tag to the `<head>` of your HTML file so it knows to apply the styles that we add to this file later on to your page.
-
-**Be mindful of relative paths of the style.css, in relation to your index.html file**
 
 ---
 template: inverse
@@ -699,9 +596,9 @@ header {
 
 # Exercise 4
 
-First, in our **index.html** file: let's organize our webpage content in an `<article>` element.
+First, in our **html**: let's organize our webpage content in an `<article>` element.
 
-In our **style.css** file, set the `width` of the `article` to **800px**. Now *center* this same `article` element using the margin trick: `margin: 0 auto;`
+In our **css** file, set the `width` of the `article` to **800px**. Now *center* this same `article` element using the margin trick: `margin: 0 auto;`
 
 On the `body` element, set the font to `Arial, sans-serif`.
 
@@ -724,6 +621,7 @@ template: inverse
 ---
 class: center, middle
 
-.large[
-   RED Academy's<br />summer courses start on <br />July 4!
-]
+   <h3>RED's courses will start:</h3>
+   Full-time: October 1st<br />
+   Part-time: October 8th<br />
+   For scholarship information email `felicity@redacademy.com`
