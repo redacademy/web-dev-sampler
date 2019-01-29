@@ -11,9 +11,10 @@ class: center, middle, inverse
 ---
 layout: false
 
-# Housekeeping
+# Welcome!
 
 - Slides: http://redacademy.github.io/web-dev-sampler/
+- Exercises starter code: [codepen](https://codepen.io/ashleighRed/pen/zeKmBK)
 - Wifi: **WeWork** / Password: **P@ssw0rd**
 
 ---
@@ -179,32 +180,6 @@ We can also **nest** our tags in HTML. For example, to add emphasis to our parag
 Think of nested tags like Russian *Matryoshka* dolls.
 
 ---
-template: inverse
-
-# Creating a Webpage
-
----
-class: center, middle
-
-### What makes a webpage?
-
-To create a basic webpage, we need three things: a **code editor**, a **file** with a `.html` extension, a handful of **HTML elements** inside it that are common to all webpages.
-
----
-
-# Code Editors
-
-Any program that edit plain text files can be used as a code editor (e.g. Notepad on Windows).
-
-But programs that are specially designed for editing code offer extra features like **syntax highlighting**.
-
-Some good (free) code editor options include:
-
-- **[Sublime Text](http://www.sublimetext.com/)** or **[Atom](https://atom.io/)** (Mac or Windows)
-- **[Text Wrangler](http://www.barebones.com/products/textwrangler/)** (Mac)
-- **[Notepad++](https://notepad-plus-plus.org/)** (Windows)
-
----
 
 # Building Blocks
 
@@ -345,26 +320,6 @@ And if a page is in a sub-folder:
 ```
 
 ---
-
-# Exercise 2
-
-
-https://codepen.io/redcjrc/pen/XPjGNJ
-
-Let's mark this content up with **paragraph tags**, and **heading tags** for the book title and chapter title.
-
-Next, link the "Project Gutenberg" text (at the bottom) to its source by adding an **anchor tag**:
-
-`https://www.gutenberg.org/files/11/11-h/11-h.htm`
-
-*Also experiment by adding bold or italic text wherever you like!*
-
----
-template: inverse
-
-# BREAK TIME
-
----
 template: inverse
 
 # What Is CSS?
@@ -396,53 +351,6 @@ CSS allows us to abstract presentation details away from the content and structu
 That makes it much easier to globally add and change styles for our websites.
 
 *So let's take a look at how it works...*
-
----
-
-template: inverse
-
-# Adding CSS to Your Website
-
----
-class: center, middle
-
-### Including CSS
-
-There are a few different ways we can add CSS to a website. Today we will focus on **external stylesheets**.
-
----
-
-# External CSS
-
-With external CSS, you put all of your CSS in a separate `.css` file, and link to it inside the `<head>` of your document:
-
-```html
-<!DOCTYPE html>
-<html>
-   <head>
-      <title>My Page</title>
-      <link rel="stylesheet" href="style.css">
-   <head>
-   <body>
-      <p>Hello, world!</p>
-   </body>
-</html>
-```
-
----
-class: center, middle
-
-.inline-images[
-   ![Linking to an external stylesheet](img/slide-assets/css-folder-structure.png)
-]
-
----
-
-# External Advantages
-
-- It's easy to link the same stylesheet to multiple pages across your website
-- It's much easier to make global changes to your CSS that are immediately picked up throughout the website
-- Your website's content is clearly separated from your website's style
 
 ---
 template: inverse
@@ -594,34 +502,15 @@ header {
 
 ---
 
-# Exercise 4
-
-First, in our **html**: let's organize our webpage content in an `<article>` element.
-
-In our **css** file, set the `width` of the `article` to **800px**. Now *center* this same `article` element using the margin trick: `margin: 0 auto;`
-
-On the `body` element, set the font to `Arial, sans-serif`.
-
-For all paragraph elements, add a bottom margin: `margin-bottom` with a **24px** value. Also adjust the `line-height` property and set its value to **1.25** for your paragraphs.
-
----
-
-# What We've Learned
-
-- How to create a webpage
-- What HTML is and it's basic elements
-- How to include CSS in our webpage
-- What the box model is
-
----
 template: inverse
 
 # Questions?
 
+Solution: [codepen](https://codepen.io/ashleighRed/pen/aXmRLw)
+
 ---
 class: center, middle
 
-   <h3>RED's courses will start:</h3>
-   Full-time: October 1st<br />
-   Part-time: October 8th<br />
-   For scholarship information email `felicity@redacademy.com`
+   <h3>RED's courses will start in April</h3>
+   For more information email `michelle@redacademy.com`
+
